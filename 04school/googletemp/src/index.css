@@ -1,0 +1,96 @@
+body{
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+.parent{
+flex-wrap: wrap;
+  width: 100%;
+justify-content: space-around;
+  display: flex;
+
+
+
+  padding: 20px;
+}
+.card{
+  width: 250px;
+  height: 300px;
+  background-color: white;
+   padding: 30px;
+  border-radius: 30px;
+  border:none;
+  flex:wrap;
+
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.left img{
+  border-radius: 50%;
+  width: 40px;
+  height:40px;
+  border:1px solid black
+}
+.top button{
+  color:gray;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.center span{
+  font-size: 10px;
+  color:gray;
+}
+.center{
+  font-weight: 900;
+}
+.center h2{
+  font-weight: 900;
+  font-size: 22px;
+}
+
+
+
+
+.center .label {
+  display: flex;
+  gap: 10px;
+}
+.center button{
+  color:black;
+  background-color: rgb(200, 196, 196);
+  border: none;
+  border-radius: 4px;
+  padding: 3px 7px;
+  font-size: 10px;
+}
+.bottom{
+
+  border-top: 1px solid rgb(179, 175, 175);
+margin-top: 40px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+
+}
+.bottom-left span{
+  color:rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 100;
+}
+.bottom button{
+  color:white;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px 10px;
+
+}
+
