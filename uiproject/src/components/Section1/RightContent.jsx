@@ -3,10 +3,15 @@ import RightCard from './RightCard';
 
 const RightContent = () => {
   return (
-    <div className='w-3/4 bg-gray-100 p-4'>
+    <div className='w-3/4 p-3 flex flex-nowrap overflow-x-auto  rounded-6xl'>
+      <RightCard/>
+      <RightCard/>
+      <RightCard/>
+      <RightCard/>
+      <RightCard/>
       <RightCard/>
     </div>
   )
 }
 
-export default RightContent
+export default RightContent;
