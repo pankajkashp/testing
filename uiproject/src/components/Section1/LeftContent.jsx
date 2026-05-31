@@ -1,5 +1,4 @@
 
-import 'remixicon/fonts/remixicon.css'
 import Hero from './Hero';
 import Arrow from './Arrow';
 const LeftContent = () => {
