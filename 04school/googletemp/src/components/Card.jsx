@@ -12,7 +12,7 @@ const Card = (jobs) => {
             />
             </div>
             <button>Save</button>
-        </div>
+        </div>4
 
         <div className="center">
           <h2>
