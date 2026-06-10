@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './Navbar.jsx'
 import Page1Content from './Page1Content.jsx'
 
