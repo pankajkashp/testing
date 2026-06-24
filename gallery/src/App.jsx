@@ -6,11 +6,9 @@ const App = () => {
   const [index, setIndex] = useState(1);
 
   const getdata = async () => {
-    const response = await axios.get(
-      `https://picsum.photos/v2/list?page=${index}&limit=10`,
-    );
+    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=10`,);
     setUserdata(response.data);
-    console.log(response.data);
+
   };
   useEffect(() => {
     getdata();
@@ -29,7 +27,7 @@ const App = () => {
               <img
                 src={elem.download_url}
                 alt=""
-                className="object-cover h-full "
+                className="object-cover h-full border border-1px-solid-red roundeds"
               />
             </div>
             <h1 className="text-white text-lg font-bold">{elem.author}</h1>
